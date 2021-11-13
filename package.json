@@ -2,35 +2,41 @@
   "name": "nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sumitt806/nodejs.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sumitt806/nodejs/issues"
-  },
-  "homepage": "https://github.com/sumitt806/nodejs#readme",
   "dependencies": {
-    "bcrypt": "^5.0.1",
-    "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "express-session": "^1.17.2",
-    "gh-pages": "^3.2.3",
-    "mongoose": "^6.0.12",
-    "passport": "^0.5.0",
-    "passport-local": "^1.0.0"
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "nodemon": "^2.0.15"
   }
 }
