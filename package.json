@@ -15,7 +15,7 @@
     "express": "^4.17.1",
     "mongoose": "^6.0.10"
   },
-  "homepage": "https://github.com/sumitt806/nodejs/",
+  "homepage": "https://github.com/sumitt806/nodejs",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
